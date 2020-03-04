@@ -1,4 +1,10 @@
 # Petunjuk Penggunaan Program
+- Pada folder yang mengandung `Makefile`, Ketik `make` pada terminal.
+- Program akan dikompilasi dengan perintah `Makefile`.
+- Setelah itu, jalankan program dengan perintah `./prog <JUMLAH_THREAD> <N>`.
+- Contoh: `./prog 10 200` akan menjalankan program dengan jumlah thread = 10 dan jumlah N = 200.
+- Akan keluar file output dengan nama `output-<N>` pada direktori yang terdapat Makefile.
+- Untuk menghapus program executable yang sudah dikompilasi, gunakan perintah `make clean`.
 
 # Pembagian Tugas
 - Fata Nugraha (13517109) mengerjakan fungsi dijkstra serial (mengubah matriks menjadi 1D), fungsi untuk memparalelkan dijkstra.
